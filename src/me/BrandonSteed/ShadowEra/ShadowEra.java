@@ -30,7 +30,7 @@ public class ShadowEra extends BukkitPlugin
     @Override
     public void onLoad()
     {
-     this.plugin = this;
+     plugin = this;
      this.handler = new BukkitCommandHandler(plugin); // Initialize the command handler
      playerListener = new PlayerListener(plugin); // PlayerListener thingy
      thorHammer = new ThorListener(plugin);
@@ -51,7 +51,7 @@ public class ShadowEra extends BukkitPlugin
         handler.setCommandLocation(Command_shadoweracore.class.getPackage());
 
         // More YAML Setting Up and information.
-        this.config = new YamlConfig(plugin, "config.yml");
+        config = new YamlConfig(plugin, "config.yml");
 
         // The Actual Loading of the configuration File
         config.load();
