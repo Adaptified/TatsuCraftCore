@@ -14,7 +14,6 @@ import org.bukkit.inventory.meta.ItemMeta;
 
 public class Command_birthday extends BukkitCommand {
 
-    @Override
     public boolean run(CommandSender sender, Command cmd, String label, String[] args) {
           Player player = (Player) sender;
           if (! (player.hasPermission("shadoweracore.command.rage"))) {
