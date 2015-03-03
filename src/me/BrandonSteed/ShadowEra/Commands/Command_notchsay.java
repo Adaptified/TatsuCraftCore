@@ -25,3 +25,4 @@ public class Command_notchsay extends BukkitCommand {
 
     }
 }
+//Written by @zD12 then adapted | https://github.com/zD12

@@ -23,3 +23,5 @@ public class Command_associated extends BukkitCommand<ShadowEra>
     }
 
 }
+
+//Written by zD12 then transferred to BukkitLib by Got_No_Friends | https://github.com/zD12 | https://github.com/got_no_friends

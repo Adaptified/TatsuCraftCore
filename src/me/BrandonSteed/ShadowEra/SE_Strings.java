@@ -10,3 +10,5 @@ import org.bukkit.entity.Player;
 public class SE_Strings {
    public static final Player OWNER = Bukkit.getServer().getPlayer("Got_No_Friends");
 }
+
+// Written by zD12 | https://github.com/zd12

@@ -38,3 +38,4 @@ public class Command_kpvp extends BukkitCommand {
         return true;
     }      
 }
+//Written by zD12 | https://github.com/zd12
