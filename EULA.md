@@ -12,14 +12,15 @@ Definitions
 "Main Developers" are:
 * [GotNoFriends](https://github.com/GotNoFriends)
 * [VjGamingUK](https://github.com/VjGamingUK) 
-* [theLAZYway01](https://github.com/theLAZYway01)
+* [DaPancake](https://github.com/DaPancake)
 * [SmokeSnake](https://github.com/SmokeSnake) 
 * [zD12](https://github.com/zD12)
 
 -
 The following actions and or ideals is directly prohibited and is in violation of the EULA:
 
-* The removal of, "GotNoFriends", "VjGamingUK", "theLAZYway01" and or "zD12" from any part of the source code without prior permission from the Project Manger(s).
+* The removal of, "GotNoFriends", "VjGamingUK", "DaPancake" and or "zD12" from any part of the source code without prior permission from the Project Manger(s).
 * Sub licensing of the following Project is prohibited, prior permission from the Project Manager required.
 * The removal of EULA.md within the source code.
+* Remove the credit of zD12's command due to packages disabling plugin build.
 * The modification of EULA without permission from the Project Manager(s).
