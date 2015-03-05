@@ -18,6 +18,7 @@ public class PlayerListener implements Listener
                 plugin = instance;
         }
      
+ /*
  @EventHandler
     public void onPlayerChat(PlayerChatEvent event) {
         if(event.getMessage().contains("fuck") || event.getMessage().equalsIgnoreCase("bitch") || event.getMessage().contains("nigg"))
@@ -28,5 +29,5 @@ public class PlayerListener implements Listener
         event.getPlayer().sendMessage(SE_Messages.CHILDREN_FRIENDLY_PLEASE);
         event.setCancelled(true);
     }
-  
+  */
 }
