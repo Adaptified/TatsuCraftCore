@@ -35,7 +35,7 @@ public class Command_smite extends BukkitCommand
         if (player.getName().equalsIgnoreCase(args[0]))
         {
           Bukkit.broadcastMessage(ChatColor.AQUA + sender.getName() + " - Smiting " + player.getName());
-          Bukkit.broadcastMessage(ChatColor.RED + player.getName() + "has been a naughty, naughty boy/girl.");
+          Bukkit.broadcastMessage(ChatColor.RED + player.getName() + " has been a naughty, naughty boy/girl.");
           
           for (int i = 0; i <= 200; i++)
           {
