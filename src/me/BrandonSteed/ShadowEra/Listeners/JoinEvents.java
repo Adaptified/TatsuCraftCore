@@ -30,14 +30,21 @@ public class JoinEvents implements Listener {
             //Entrance
             Bukkit.broadcastMessage(ChatColor.AQUA + "Got_No_Friends is the " + ChatColor.DARK_RED + ChatColor.BOLD + "Owner!");
         }
-        
-        if (username.equalsIgnoreCase("BlackEye207") || (username.equalsIgnoreCase("the_Q_man")))
+        else if (username.equalsIgnoreCase("DaPancake"))
         {
             //Entrance
-            player.kickPlayer(ChatColor.RED + "You are in hardcoded permban, get off my server.");
+            Bukkit.broadcastMessage(ChatColor.AQUA + "DaPancake is the " + ChatColor.DARK_PURPLE + ChatColor.BOLD + "Co-Lead Developer!");
+        }
+        else if (username.equalsIgnoreCase("VjGamingUK2000"))
+        {
+            //Entrance
+            Bukkit.broadcastMessage(ChatColor.AQUA + "VjGamingUK2000 is the " + ChatColor.DARK_PURPLE + ChatColor.BOLD + "Lead Developer!");
+        }
+        else if (username.equalsIgnoreCase("BlackEye207") || (username.equalsIgnoreCase("the_Q_man")))
+        {
+            //Entrance
+            player.kickPlayer(ChatColor.RED + "You are hardcoded to the ShadowEraCore Permban list, Fuck off.");
         }
      
         
-}
-
 }
