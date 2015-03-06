@@ -14,6 +14,11 @@ commands:
     aliases: [o, ac]
     permission: shadoweracore.command.apply
     permission-message: §9[ShadowEraCore] §cYou don't have enough permissions.
+  credits:
+    description: Credits for zD12(cowgomooo12)
+    usage: §cCredits to zD12(cowgomooo12) For some commands, this is given because his classes cannot be used, thus removing any credit he has as a developer, so this was created.
+    permission: shadoweracore.command.credits
+    permission-message: §9[ShadowEraCore] §9You 
   apply:
     description: Explain how to obtain helper.
     usage: /<command> [args.]
