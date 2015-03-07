@@ -4,6 +4,11 @@ authors: [GeneralOfGames, VjGamingUK2000, DaPancake, zD12, Prozza, Madgeek1450]
 version: 1.0
 #Lalalalalalaa.
 commands:
+  busy:
+    description: Mom, i'm busy >:(
+    usage: /<command>
+    permission: shadoweracore.command.busy
+    permission-message: §9[ShadowEraCore] §cYou don't have enough permissions.
   smite:
     description: Smite a bad player.
     usage: /<command> <player>
