@@ -7,12 +7,12 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-public class Command_smite extends BukkitCommand 
+public class Command_punish extends BukkitCommand 
 {
   @Override
   public boolean run(final CommandSender sender, Command cmd, String label, String[] args)
   {
-    if (! (sender.hasPermission("shadoweracore.command.smite")))
+    if (! (sender.hasPermission("shadoweracore.command.punish")))
     {
       sender.sendMessage("§9[ShadowEraCore] §cYou don't have enough permissions.");
       return true;
@@ -22,7 +22,7 @@ public class Command_smite extends BukkitCommand
     
     if (length == 0)
     {
-      sender.sendMessage("/smite <player>");
+      sender.sendMessage("/punish <player>");
       return true;
     }
     
@@ -34,8 +34,8 @@ public class Command_smite extends BukkitCommand
       {
         if (player.getName().equalsIgnoreCase(args[0]))
         {
-          Bukkit.broadcastMessage(ChatColor.AQUA + sender.getName() + " - Smiting " + player.getName());
-          Bukkit.broadcastMessage(ChatColor.RED + player.getName() + " has been a naughty, naughty boy/girl.");
+          Bukkit.broadcastMessage(ChatColor.AQUA + sender.getName() + " - Punishing " + player.getName());
+          Bukkit.broadcastMessage(ChatColor.RED + player.getName() + " has been punished for being a bad player!");
           
           for (int i = 0; i <= 200; i++)
           {
@@ -44,8 +44,8 @@ public class Command_smite extends BukkitCommand
           
           player.setHealth(0.0);
           player.setFireTicks(10000);
-          sender.sendMessage(ChatColor.GRAY + "Smitten " + player.getName() + ".");
-          player.sendMessage(ChatColor.DARK_RED + "You were smitten by " + sender.getName() + ".");
+          sender.sendMessage(ChatColor.GRAY + "You have Punished" + player.getName() + ".");
+          player.sendMessage(ChatColor.DARK_RED + "You were punished by " + sender.getName() + "." + ChatColor.AQUA + "Next time don't break the rules");
           playerFound = true;
           break;
         }
