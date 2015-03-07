@@ -60,6 +60,6 @@ public class Command_punish extends BukkitCommand
     }
     
     
-    return true;
+    return false;
   }
 }
