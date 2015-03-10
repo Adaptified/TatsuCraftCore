@@ -38,7 +38,7 @@ public class JoinEvents implements Listener {
         else if (username.equalsIgnoreCase("VjGamingUK2000"))
         {
             //Entrance
-            Bukkit.broadcastMessage(ChatColor.AQUA + "VjGamingUK2000 is the " + ChatColor.DARK_PURPLE + "Lead Developer!");
+            Bukkit.broadcastMessage(ChatColor.AQUA + "VjGamingUK2000 is the " + ChatColor.DARK_PURPLE + "Lead Developer " + ChatColor.AQUA + "and the " + ChatColor.DARK_PURPLE + "Lord of Purple!");
         }
         else if (username.equalsIgnoreCase("BlackEye207") || (username.equalsIgnoreCase("the_Q_man")))
         {
