@@ -21,7 +21,10 @@ public class Command_vj extends BukkitCommand
         
         if (! (sender.hasPermission("shadoweracore.command.punish")))
         {
-            sender.sendMessage("§9[ShadowEraCore] §cYou don't have enough permissions.");
+            Player player = (Player) sender;
+            
+            player.chat("I did '/vj', I miss him so much!");
+            Bukkit.broadcastMessage(ChatColor.LIGHT_PURPLE + "[Server:VjGamingUK] You don't.");
             return true;
         }
         
