@@ -83,8 +83,10 @@ public class Command_vj extends BukkitCommand
                         player.playSound(player.getLocation(), Sound.WOLF_HOWL, 5, 5);
                     }
                     
-                    // machat
+                    // kill
+                    player.setHealth(0.0);
                     
+                    // machat
                     player.chat("NO.");
                     player.chat("Please " + executor.getName() + "! Im so sorry!");
                     executor.chat("It's too late, good day sir. :)");
