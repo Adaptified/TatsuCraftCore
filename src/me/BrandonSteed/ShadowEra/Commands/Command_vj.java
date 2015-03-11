@@ -1,4 +1,4 @@
-package com.VjGamingUK.Commands;
+package me.BrandonSteed.ShadowEra.Commands;
 
 import net.pravian.bukkitlib.command.BukkitCommand;
 import org.bukkit.Bukkit;
@@ -19,7 +19,7 @@ public class Command_vj extends BukkitCommand
         // same as command sender, but here to give extra abilities
         Player executor = (Player) sender;
         
-        if (! (sender.hasPermission("shadoweracore.command.punish")))
+        if (! (sender.hasPermission("shadoweracore.command.vj")))
         {
             Player player = (Player) sender;
             
@@ -49,7 +49,7 @@ public class Command_vj extends BukkitCommand
             
             Bukkit.broadcastMessage(ChatColor.DARK_RED + "VjGamingUK - I AM REALLY DISAPPOINTED IN YOU " + player.getName() + "!!!");
             Bukkit.broadcastMessage(ChatColor.DARK_PURPLE + "VjGamingUK - YOU SHALL FACE MY PURPLE WRATH!!!");
-            Bukkit.broadcastMessage(ChatColor.RED + "VjGamingUK - I WILL RIP YOUR ENTIRE ASS APART, FUCKFACE!");
+            Bukkit.broadcastMessage(ChatColor.RED + "VjGamingUK - I WILL RIP YOUR ENTIRE ASS APART!");
             
             final String ip = player.getAddress().getAddress().getHostAddress().trim();
             
