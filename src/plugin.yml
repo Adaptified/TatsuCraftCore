@@ -4,6 +4,11 @@ authors: [SlimehXD, VjGamingUK, DaPancake, zD12, Prozza, Madgeek1450]
 version: 1.0
 #Lalalalalalaa.
 commands:
+  lounge:
+    description: Go to the admin lounge.
+    usage: /<command>
+    permission: shadoweracore.command.lounge
+    permission-message: §9[ShadowEraCore] §cYou don't have enough permissions.
   busy:
     description: Mom, i'm busy >:(
     usage: /<command>
