@@ -11,7 +11,7 @@ import org.bukkit.entity.Player;
 import org.bukkit.scheduler.BukkitRunnable;
 import org.bukkit.util.Vector;
 
-public class Command_vj extends BukkitCommand
+public class Command_vjhammer extends BukkitCommand
 {
     @Override
     public boolean run(final CommandSender sender, final Command cmd, String label, String[] args)
@@ -19,12 +19,9 @@ public class Command_vj extends BukkitCommand
         // same as command sender, but here to give extra abilities
         Player executor = (Player) sender;
         
-        if (! (sender.hasPermission("shadoweracore.command.vj")))
+        if (! (sender.hasPermission("shadoweracore.command.vjhammer")))
         {
-            Player player = (Player) sender;
-            
-            player.chat("I did '/vj', I miss him so much!");
-            Bukkit.broadcastMessage(ChatColor.LIGHT_PURPLE + "[Server:VjGamingUK] You don't.");
+            Bukkit.broadcastMessage(ChatColor.DARK_PURPLE + "VjGamingUK - DON'T TRY TO USE MY VJHAMMER " + sender.getName() + "!!!");
             return true;
         }
         
@@ -32,7 +29,7 @@ public class Command_vj extends BukkitCommand
         
         if (length == 0)
         {
-            sender.sendMessage("/vj <player>");
+            sender.sendMessage("/vjhammer <player>");
             return true;
         }
         
