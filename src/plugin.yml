@@ -102,9 +102,14 @@ commands:
     permission: shadoweracore.command.machat
     permission-message: §9[ShadowEraCore] §cYou don't have enough permissions.
   vj:
+    description: VjGamingUK utils.
+    usage: /<command> [purple]
+    permission: shadoweracore.command.vj
+    permission-message: §9[ShadowEraCore] §cYou don't have enough permissions.
+  vjhammer:
     description: Slam the VJHammer over someone.
     usage: /<command> <player>
-    permission: shadoweracore.command.vj
+    permission: shadoweracore.command.vjhammer
     permission-message: §9[ShadowEraCore] §cYou don't have enough permissions.
 permissions:
   shadoweracore.*:
