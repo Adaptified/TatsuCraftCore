@@ -8,7 +8,7 @@ import org.bukkit.entity.Player;
 // Quick access to modify *most* strings. 
 
 public class SE_Strings {
-   public static final Player OWNER = Bukkit.getServer().getPlayer("Got_No_Friends");
+   public static final Player OWNER = Bukkit.getServer().getPlayer("ImALuckyGuy");
 }
 
 // Written by zD12 | https://github.com/zd12
