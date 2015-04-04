@@ -1,7 +1,7 @@
-name: TatsuCraftCore
+name: TatsuCraftSCore
 main: me.BrandonSteed.ShadowEra.ShadowEra
-authors: [SlimehXD, DaPancake, zD12]
-version: 1.0
+authors: [SlimehXD, DaPancake, zD12, xDestroyer217]
+version: 2.3
 #Lalalalalalaa.
 commands:
   lounge:
@@ -70,10 +70,10 @@ commands:
     aliases: [an]
     permission: shadoweracore.command.announce
     permission-message: §9[ShadowEraCore] §cYou don't have enough permissions.
-  slime:
-    description: Check if the owner is online
-    usage: /<command>
-    aliases: [owner, owners]
+  #slime:
+  #  description: Check if the owner is online
+  #  usage: /<command>
+  #  aliases: [owner, owners]
   promote:
     description: Promote a user!
     usage: /<command> <player> [helper | moderator | admin | coowner | developer]
@@ -100,16 +100,6 @@ commands:
     description: Force a user say something!  
     usage: /<command> <player> [message]
     permission: shadoweracore.command.machat
-    permission-message: §9[ShadowEraCore] §cYou don't have enough permissions.
-  vj:
-    description: VjGamingUK utils.
-    usage: /<command> [purple]
-    permission: shadoweracore.command.vj
-    permission-message: §9[ShadowEraCore] §cYou don't have enough permissions.
-  vjhammer:
-    description: Slam the VJHammer over someone.
-    usage: /<command> <player>
-    permission: shadoweracore.command.vjhammer
     permission-message: §9[ShadowEraCore] §cYou don't have enough permissions.
 permissions:
   shadoweracore.*:
