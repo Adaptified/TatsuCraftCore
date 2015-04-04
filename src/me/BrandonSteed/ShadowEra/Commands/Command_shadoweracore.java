@@ -1,4 +1,4 @@
-package me.BrandonSteed.ShadowEra.Commands;
+/*package me.BrandonSteed.ShadowEra.Commands;
 
 import me.BrandonSteed.ShadowEra.ShadowEra;
 import net.pravian.bukkitlib.command.BukkitCommand;
@@ -22,3 +22,4 @@ public class Command_shadoweracore extends BukkitCommand<ShadowEra>
     }
 
 }
+*/
