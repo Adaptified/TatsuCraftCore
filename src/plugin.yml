@@ -8,68 +8,68 @@ commands:
     description: Go to the admin lounge.
     usage: /<command>
     permission: shadoweracore.command.lounge
-    permission-message: §9[ShadowEraCore] §cYou don't have enough permissions.
+    permission-message: §9[TatsuCraftCore] §cYou don't have enough permissions.
   busy:
     description: Mom, i'm busy >:(
     usage: /<command>
     permission: shadoweracore.command.busy
-    permission-message: §9[ShadowEraCore] §cYou don't have enough permissions.
+    permission-message: §9[TatsuCraftCore] §cYou don't have enough permissions.
   smite:
     description: Smite a bad player.
     usage: /<command> <player>
     permission: shadoweracore.command.smite
-    permission-message: §9[ShadowEraCore] §cYou don't have enough permissions.
+    permission-message: §9[TatsuCraftCore] §cYou don't have enough permissions.
   adminchat:
     description: Use the adminchat!
     usage: /<command> [message]
     aliases: [o, ac]
     permission: shadoweracore.command.apply
-    permission-message: §9[ShadowEraCore] §cYou don't have enough permissions.
+    permission-message: §9[TatsuCraftCore] §cYou don't have enough permissions.
   credits:
     description: Credits for zD12(cowgomooo12)
     usage: §cCredits to zD12(cowgomooo12) For some commands, this is given because his classes cannot be used, thus removing any credit he has as a developer, so this was created.
     permission: shadoweracore.command.credits
-    permission-message: §9[ShadowEraCore] §9You 
+    permission-message: §9[TatsuCraftCore] §9You 
   apply:
     description: Explain how to obtain helper.
     usage: /<command> [args.]
     aliases: [a]
     permission: shadoweracore.command.apply
-    permission-message: §9[ShadowEraCore] §cYou don't have enough permissions.
+    permission-message: §9[TatsuCraftCore] §cYou don't have enough permissions.
   kpvp:
     description: Obtain a kit for PvP.
     usage: /<command>
     permission: shadoweracore.command.kpvp
-    permission-message: §9[ShadowEraCore] §cYou don't have enough permissions.
+    permission-message: §9[TatsuCraftCore] §cYou don't have enough permissions.
   forcecommand:
     description: Force a user to preform a command.
     usage: /<command> <player> <command> [args.]
     aliases: [fc, forcecmd]
     permission: shadoweracore.command.forcecommand
-    permission-message: §9[ShadowEraCore] §cYou don't have enough permissions.
+    permission-message: §9[TatsuCraftCore] §cYou don't have enough permissions.
   cc:
     description: Clear chat for all users, or a single user.
     usage: /<command> <player>
     aliases: [clearchat, cchat]
     permission: shadoweracore.command.cc
-    permission-message: §9[ShadowEraCore] §cYou don't have enough permissions.
+    permission-message: §9[TatsuCraftCore] §cYou don't have enough permissions.
   rage:
     description: Rage in FIRE!  Burn them in the fiery death!
     usage: /<command>
     permission: shadoweracore.command.rage
-    permission-message: §9[ShadowEraCore] §cYou don't have enough permissions.
-  administratemode:
+    permission-message: §9[TatsuCraftCore] §cYou don't have enough permissions.
+  adminmode:
     description: Administrate within darkness.
     usage: /<command> [on | off]
     aliases: [admin, adminmode, v, vanish]
     permission: shadoweracore.command.administratemode
-    permission-message: §9[ShadowEraCore] §cYou don't have enough permissions.
+    permission-message: §9[TatsuCraftCore] §cYou don't have enough permissions.
   announce:
     description: Announce a message to the whole server.
     usage: /<command> [message]
     aliases: [an]
     permission: shadoweracore.command.announce
-    permission-message: §9[ShadowEraCore] §cYou don't have enough permissions.
+    permission-message: §9[TatsuCraftCore] §cYou don't have enough permissions.
   #slime:
   #  description: Check if the owner is online
   #  usage: /<command>
@@ -78,29 +78,29 @@ commands:
     description: Promote a user!
     usage: /<command> <player> [helper | moderator | admin | coowner | developer]
     permission: shadoweracore.command.promote
-    permission-message: §9[ShadowEraCore] §cYou don't have enough permissions.
+    permission-message: §9[TatsuCraftCore] §cYou don't have enough permissions.
   nv:
     description: Living the "Light" Life.
     usage: /<command> [on | off]
     aliases: [nightlife, nightvision]
     permission: shadoweracore.command.nv
-    permission-message: §9[ShadowEraCore] §cYou don't have enough permissions.
+    permission-message: §9[STatsuCraftCore] §cYou don't have enough permissions.
   fakeleave:
     description: Display a fake leave message.
     usage: /<command>
     permission: shadoweracore.command.fakeleave
-    permission-message: §9[ShadowEraCore] §cYou don't have enough permissions.
+    permission-message: §9[TatsuCraftCore] §cYou don't have enough permissions.
   consolesay:
     description: Scream a message from console.    
     usage: /<command> [message]
     aliases: [server]
     permission: shadoweracore.command.consolesay
-    permission-message: §9[ShadowEraCore] §cYou don't have enough permissions.
+    permission-message: §9[TatsuCraftCore] §cYou don't have enough permissions.
   machat:
     description: Force a user say something!  
     usage: /<command> <player> [message]
     permission: shadoweracore.command.machat
-    permission-message: §9[ShadowEraCore] §cYou don't have enough permissions.
+    permission-message: §9[TatsuCraftCore] §cYou don't have enough permissions.
 permissions:
   shadoweracore.*:
     description: Gives access to everything on ShadowEraCore.
