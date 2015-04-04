@@ -9,18 +9,18 @@ import org.bukkit.entity.Player;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 
-public class Command_administratemode extends BukkitCommand {
+public class Command_adminmode extends BukkitCommand {
 
 
     @Override
     public boolean run(CommandSender sender, Command cmd, String label, String[] args) {
           Player player = (Player) sender;
-          if (! (player.hasPermission("shadoweracore.command.administratemode"))) {
+          if (! (player.hasPermission("shadoweracore.command.adminmode"))) {
           sender.sendMessage(SE_Messages.NO_PREMS);
           return true;
           }
           if (args.length == 0) {
-          player.sendMessage(SE_Messages.USAGE + "/administratemode [on|off]");
+          player.sendMessage(SE_Messages.USAGE + "/adminmode [on|off]");
           }
           
           else if (args[0].equalsIgnoreCase("on")) {
