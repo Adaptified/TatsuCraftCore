@@ -11,7 +11,6 @@ Definitions
 
 "Main Developers" are:
 * [GotNoFriends](https://github.com/GotNoFriends)
-* [VjGamingUK](https://github.com/VjGamingUK) 
 * [DaPancake](https://github.com/DaPancake)
 * [SmokeSnake](https://github.com/SmokeSnake) 
 * [zD12](https://github.com/zD12)
@@ -24,3 +23,7 @@ The following actions and or ideals is directly prohibited and is in violation o
 * The removal of EULA.md within the source code.
 * Removing the credit of zD12's commands due to packages disabling plugin build.
 * The modification of EULA without permission from the Project Manager(s).
+
+Waived for:
+--
+* [ImALuckyGuy](https://github.com/ImALuckyGuy)
