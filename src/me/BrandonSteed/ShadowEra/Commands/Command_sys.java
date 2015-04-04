@@ -10,26 +10,26 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
-public class Command_vj extends BukkitCommand
+public class Command_sys extends BukkitCommand
 {
   @Override
   public boolean run(final CommandSender sender, Command cmd, String label, String[] args)
   {
-    if (! (sender.hasPermission("shadoweracore.command.vj")))
+    if (! (sender.hasPermission("shadoweracore.command.sys")))
     {
       sender.sendMessage(ChatColor.DARK_PURPLE + "[ShadowEraCore] " + ChatColor.RED + "You don't have enough permissions.");
       return true;
     }
     else if (args.length == 0)
     {
-      sender.sendMessage(ChatColor.WHITE + "VjGamingUK utils (currently still in development)");
-      sender.sendMessage(ChatColor.WHITE + "/vj [purple]");
+      sender.sendMessage(ChatColor.WHITE + "System Administrator utils (currently still in development)");
+      sender.sendMessage(ChatColor.WHITE + "/sys [purple]");
       return true;
     }
     else if (args[0].equalsIgnoreCase("purple"))
     {
       Bukkit.broadcastMessage(ChatColor.AQUA + sender.getName() + " - Gracing the world of purple!");
-      sender.sendMessage(ChatColor.DARK_PURPLE + "[ShadowEraCore] " + ChatColor.GREEN + "Sucessfully used VjGamingUK utils.");
+      sender.sendMessage(ChatColor.DARK_PURPLE + "[ShadowEraCore] " + ChatColor.GREEN + "Sucessfully used system administrator utils.");
       for (final Player player : server.getOnlinePlayers())
       {
         // creation of the purple wool hat
@@ -43,7 +43,7 @@ public class Command_vj extends BukkitCommand
         ItemStack purpleItem = new ItemStack(Material.WOOL, 1, (short) 10);
         ItemMeta item = purpleItem.getItemMeta();
         item.setDisplayName(ChatColor.DARK_PURPLE + "The Purple Aura");
-        item.setLore(Arrays.asList("§5§owelcome to vj13573's team of purple!"));
+        item.setLore(Arrays.asList("§5§owelcome to the system admins team of purple!"));
         purpleItem.setItemMeta(item);
         
         // strike lightning on all players
