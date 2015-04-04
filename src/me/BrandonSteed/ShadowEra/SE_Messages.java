@@ -9,7 +9,7 @@ public class SE_Messages {
    public static final String PROMOTE = ChatColor.GREEN + " Has been promoted to the rank";
    public static final String SWEAR = ChatColor.GRAY + "Swearing is forbidden!";
    public static final String CHILDREN_FRIENDLY_PLEASE = ChatColor.DARK_RED + "Hi there, we have seven year olds playing here- I'd love if you didn't say 'those type' of words.  Children friendly, please!";
-   public static final String FORUMS_URL = "http://shadowera.boards.net";
+   public static final String FORUMS_URL = "http://tatsusurvival.boards.net";
    public static final String TAG = ChatColor.WHITE + "[" + ChatColor.AQUA + "Tatsu" + ChatColor.GREEN + "Craft" + ChatColor.LIGHT_PURPLE + "Core" + ChatColor.WHITE + "] " + ChatColor.RESET;
    public static final String TAG_MOD = ChatColor.WHITE + "[" + ChatColor.AQUA + "Tatsu" + ChatColor.GREEN + "Craft" + ChatColor.LIGHT_PURPLE + "Mod" + ChatColor.WHITE + "] " + ChatColor.RESET;
    public static final String NOTCH = "<" + ChatColor.GOLD + "Notch" + ChatColor.WHITE + "> "; 
