@@ -25,25 +25,25 @@ public class JoinEvents implements Listener {
         final String username = event.getPlayer().getName();
         final String IP = event.getPlayer().getAddress().getAddress().getHostAddress().trim();
 
-        if (username.equalsIgnoreCase("Got_No_Friends"))
+        if (username.equalsIgnoreCase("ImALuckyGuy"))
         {
             //Entrance
-            Bukkit.broadcastMessage(ChatColor.AQUA + "Got_No_Friends is the " + ChatColor.DARK_RED + ChatColor.BOLD + "Owner!" + ChatColor.AQUA + " and is also a lucky guy!);
+            Bukkit.broadcastMessage(ChatColor.AQUA + "Lucky is the " + ChatColor.DARK_RED + ChatColor.BOLD + "Owner!" + ChatColor.AQUA + " and is also a lucky guy!");
         }
-        else if (username.equalsIgnoreCase("DaPancake"))
+        else if (username.equalsIgnoreCase("xDestroyer217"))
         {
             //Entrance
-            Bukkit.broadcastMessage(ChatColor.AQUA + "DaPancake is the " + ChatColor.DARK_PURPLE + "Co-Lead Developer!");
+            Bukkit.broadcastMessage(ChatColor.AQUA + "xDestroyer217 is the " + ChatColor.DARK_PURPLE + "Co-Lead Developer!");
         }
-        else if (username.equalsIgnoreCase("VjGamingUK2000"))
+        else if (username.equalsIgnoreCase("Revalation"))
         {
             //Entrance
-            Bukkit.broadcastMessage(ChatColor.AQUA + "VjGamingUK2000 is the " + ChatColor.DARK_PURPLE + "Lead Developer " + ChatColor.AQUA + "and the " + ChatColor.DARK_PURPLE + "Lord of Purple!");
+            Bukkit.broadcastMessage(ChatColor.AQUA + "Revalation is the " + ChatColor.DARK_PURPLE + "Lead Developer!");
         }
-        else if (username.equalsIgnoreCase("BlackEye207") || (username.equalsIgnoreCase("the_Q_man")))
+        else if (username.equalsIgnoreCase("VjGamingUK") || (username.equalsIgnoreCase("ImAUnluckyGuy")))
         {
             //Entrance
-            player.kickPlayer(ChatColor.RED + "You are hardcoded to the ShadowEraCore Permban list, Fuck off.");
+            player.kickPlayer(ChatColor.RED + "You are hardcoded to the TatsuCraft Permban list, Fuck off.");
         }
      
         
