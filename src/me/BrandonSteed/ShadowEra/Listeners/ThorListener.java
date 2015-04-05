@@ -1,4 +1,4 @@
-package me.BrandonSteed.ShadowEra.Listeners;
+/* package me.BrandonSteed.ShadowEra.Listeners;
 
 import me.BrandonSteed.ShadowEra.ShadowEra;
 import org.bukkit.entity.Player;
@@ -34,7 +34,7 @@ public class ThorListener implements Listener {
                         {
                             for (int i = 0; i <= 100; i++)
                             {
-                                player.getWorld().strikeLightning(player.getTargetBlock(null, 500).getLocation());
+                            player.getWorld().strikeLightning(player.getTargetBlock(null, 500).getLocation());
                             }
                             player.getWorld().createExplosion(player.getTargetBlock(null, 500).getLocation(), 4F);
                         }
@@ -60,3 +60,4 @@ public class ThorListener implements Listener {
 }
     }
 }
+*/ //This whole listener is screwed up pretty badly.

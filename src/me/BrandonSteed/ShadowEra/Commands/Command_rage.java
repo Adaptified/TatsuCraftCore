@@ -13,13 +13,13 @@ public class Command_rage extends BukkitCommand {
 
     @Override
     public boolean run(final CommandSender sender, Command cmd, String label, String[] args) {
-          Player player = (Player) sender;
+          final Player player = (Player) sender;
           if (! (player.hasPermission("shadoweracore.command.rage"))) {
           sender.sendMessage(SE_Messages.NO_PREMS);
           return true;
           }
           
-          if (args[0].equalsIgnoreCase("-f")
+          if (args[0].equalsIgnoreCase("-f"))
           {
               if (! (player.hasPermission("shadoweracore.command.rage.fiery")))
               {

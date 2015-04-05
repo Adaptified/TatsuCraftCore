@@ -2,7 +2,7 @@ package me.BrandonSteed.ShadowEra.Commands;
 
 import me.BrandonSteed.ShadowEra.SE_Messages;
 import me.BrandonSteed.ShadowEra.ShadowEra;
-import net.minecraft.util.org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import net.pravian.bukkitlib.command.BukkitCommand;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;

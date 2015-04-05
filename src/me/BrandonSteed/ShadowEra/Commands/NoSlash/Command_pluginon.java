@@ -1,6 +1,6 @@
 package me.BrandonSteed.ShadowEra.Commands.NoSlash;
 
-import me.zd12.ShadowEra.SE_Messages;
+import me.BrandonSteed.ShadowEra.SE_Messages;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;

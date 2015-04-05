@@ -1,9 +1,9 @@
 package me.BrandonSteed.ShadowEra;
 
-import me.BrandonSteed.ShadowEra.Commands.Command_shadoweracore;
+import me.BrandonSteed.ShadowEra.Commands.*;
 import me.BrandonSteed.ShadowEra.Listeners.JoinEvents;
 import me.BrandonSteed.ShadowEra.Listeners.PlayerListener;
-import me.BrandonSteed.ShadowEra.Listeners.ThorListener;
+// import me.BrandonSteed.ShadowEra.Listeners.ThorListener;
 import net.pravian.bukkitlib.BukkitLib;
 import net.pravian.bukkitlib.command.BukkitCommandHandler;
 import net.pravian.bukkitlib.config.YamlConfig;
@@ -19,7 +19,7 @@ public class ShadowEra extends BukkitPlugin
     public static ShadowEra plugin;
     public BukkitCommandHandler handler;
     public PlayerListener playerListener;
-    public ThorListener thorHammer;
+    // public ThorListener thorHammer;
     public JoinEvents joinEvents;
 
 
@@ -33,7 +33,7 @@ public class ShadowEra extends BukkitPlugin
      this.plugin = this;
      this.handler = new BukkitCommandHandler(plugin); // Initialize the command handler
      playerListener = new PlayerListener(plugin); // PlayerListener thingy
-     thorHammer = new ThorListener(plugin);
+     // thorHammer = new ThorListener(plugin);
      joinEvents = new JoinEvents(plugin);
     }
 
@@ -43,7 +43,7 @@ public class ShadowEra extends BukkitPlugin
         // Listener Crap
         PluginManager pm = getServer().getPluginManager();
         pm.registerEvents(plugin.playerListener, plugin);
-        pm.registerEvents(plugin.thorHammer, plugin);
+        // pm.registerEvents(plugin.thorHammer, plugin);
         pm.registerEvents(plugin.joinEvents, plugin);
 
         // Bukkit Lib Important Stuff

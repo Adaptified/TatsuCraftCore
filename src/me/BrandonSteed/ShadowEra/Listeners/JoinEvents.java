@@ -40,11 +40,12 @@ public class JoinEvents implements Listener {
             //Entrance
             Bukkit.broadcastMessage(ChatColor.AQUA + "Revalation is the " + ChatColor.DARK_PURPLE + "Lead Developer!");
         }
-        else if (username.equalsIgnoreCase("VjGamingUK") || (username.equalsIgnoreCase("ImAUnluckyGuy")))
+        else if (username.equalsIgnoreCase("lhaberman") || (username.equalsIgnoreCase("creeperscontrolu")))
         {
             //Entrance
             player.kickPlayer(ChatColor.RED + "You are hardcoded to the TatsuCraft Permban list, Fuck off.");
         }
      
         
+}
 }
