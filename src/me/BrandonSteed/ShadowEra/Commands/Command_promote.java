@@ -26,30 +26,30 @@ public class Command_promote extends BukkitCommand
         {
             Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "manuadd " + player.getName() + " developer");
             player.setOp(true);
-            Bukkit.broadcastMessage(ChatColor.DARK_GRAY + "[" + ChatColor.DARK_RED + "Staff" + ChatColor.DARK_GRAY + "] " + ChatColor.DARK_RED + player.getName() + SE_Messages.PROMOTE + ChatColor.RED + " Developer! Good Coding! Congrats :D");
+            Bukkit.broadcastMessage(ChatColor.DARK_GRAY + "[" + ChatColor.DARK_RED + "TatsuSCore" + ChatColor.DARK_GRAY + "] " + ChatColor.DARK_RED + player.getName() + SE_Messages.PROMOTE + ChatColor.RED + " Developer! Good Coding! Congrats :D");
             return true;
 
         }
 
-        else if (args[1].equalsIgnoreCase("VIP"))
+        else if (args[1].equalsIgnoreCase("Admin"))
         {
-            Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "manuadd " + player.getName() + " VIP");
+            Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "manuadd " + player.getName() + " admin");
             player.setOp(true);
-            Bukkit.broadcastMessage(ChatColor.DARK_GRAY + "[" + ChatColor.DARK_RED + "Staff" + ChatColor.DARK_GRAY + "] " + ChatColor.DARK_RED + player.getName() + SE_Messages.PROMOTE + ChatColor.RED + " VIP, Congrats :D");
+            Bukkit.broadcastMessage(ChatColor.DARK_GRAY + "[" + ChatColor.DARK_RED + "TatsuSCore" + ChatColor.DARK_GRAY + "] " + ChatColor.DARK_RED + player.getName() + SE_Messages.PROMOTE + ChatColor.RED + " Jr. Mod, Congrats :D");
             return true;
 
         }
-        if (args[1].equalsIgnoreCase("admin"))
+        if (args[1].equalsIgnoreCase("telnetadmin"))
         {
-            Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "manuadd " + player.getName() + " admin");  
-            Bukkit.broadcastMessage(ChatColor.DARK_GRAY + "[" + ChatColor.DARK_RED + "Staff" + ChatColor.DARK_GRAY + "] " + ChatColor.DARK_RED + player.getName() + SE_Messages.PROMOTE + ChatColor.RED + " Administrator! Congrats :D");
+            Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "manuadd " + player.getName() + " telnetadmin");  
+            Bukkit.broadcastMessage(ChatColor.DARK_GRAY + "[" + ChatColor.DARK_RED + "TatsuSCore" + ChatColor.DARK_GRAY + "] " + ChatColor.DARK_RED + player.getName() + SE_Messages.PROMOTE + ChatColor.RED + " Moderator! Congrats :D");
             return true;
 
         }
-        else if (args[1].equalsIgnoreCase("helper"))
+        else if (args[1].equalsIgnoreCase("SeniorAdmin"))
         {
-            Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "manuadd " + player.getName() + " helper");
-            Bukkit.broadcastMessage(ChatColor.DARK_GRAY + "[" + ChatColor.DARK_RED + "Staff" + ChatColor.DARK_GRAY + "] " + ChatColor.DARK_RED + player.getName() + SE_Messages.PROMOTE + ChatColor.RED + " Helper, Congrats :D");
+            Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "manuadd " + player.getName() + " senioradmin");
+            Bukkit.broadcastMessage(ChatColor.DARK_GRAY + "[" + ChatColor.DARK_RED + "TatsuSCore" + ChatColor.DARK_GRAY + "] " + ChatColor.DARK_RED + player.getName() + SE_Messages.PROMOTE + ChatColor.RED + " Sr. Mod, Congrats :D");
             return true;
         }
 
@@ -57,36 +57,36 @@ public class Command_promote extends BukkitCommand
         {
             Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "manuadd " + player.getName() + " owner");
             player.setOp(true);
-            Bukkit.broadcastMessage(ChatColor.DARK_GRAY + "[" + ChatColor.DARK_RED + "Staff" + ChatColor.DARK_GRAY + "] " + ChatColor.DARK_RED + player.getName() + SE_Messages.PROMOTE + ChatColor.RED + " Owner, OMG, LOLOLOL, Congrats :D");
+            Bukkit.broadcastMessage(ChatColor.DARK_GRAY + "[" + ChatColor.DARK_RED + "TatsuSCore" + ChatColor.DARK_GRAY + "] " + ChatColor.DARK_RED + player.getName() + SE_Messages.PROMOTE + ChatColor.RED + " Owner, OMG, LOLOLOL, Congrats :D");
             return true;
 
         }
-        else if (args[1].equalsIgnoreCase("headadmin"))
+        else if (args[1].equalsIgnoreCase("jr.admin"))
         {
-            Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "manuadd " + player.getName() + " headadmin");
+            Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "manuadd " + player.getName() + " jr.admin");
             player.setOp(true);           
-            Bukkit.broadcastMessage(ChatColor.DARK_GRAY + "[" + ChatColor.DARK_RED + "Staff" + ChatColor.DARK_GRAY + "] " + ChatColor.DARK_RED + player.getName() + SE_Messages.PROMOTE + ChatColor.RED + " Head Admin! Congrats :D");
+            Bukkit.broadcastMessage(ChatColor.DARK_GRAY + "[" + ChatColor.DARK_RED + "TatsuSCore" + ChatColor.DARK_GRAY + "] " + ChatColor.DARK_RED + player.getName() + SE_Messages.PROMOTE + ChatColor.RED + " Jr. Admin! Congrats :D");
             return true;
 
         }
-        else if (args[1].equalsIgnoreCase("host"))
+        else if (args[1].equalsIgnoreCase("unused"))
         {
-            Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "manuadd " + player.getName() + " host");
+            Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "manuadd " + player.getName() + " unused");
             player.setOp(true);           
-           Bukkit.broadcastMessage(ChatColor.DARK_GRAY + "[" + ChatColor.DARK_RED + "Staff" + ChatColor.DARK_GRAY + "] " + ChatColor.DARK_RED + player.getName() + SE_Messages.PROMOTE + ChatColor.RED + " HOST!! Congrats :D");
+           Bukkit.broadcastMessage(ChatColor.DARK_GRAY + "[" + ChatColor.DARK_RED + "TatsuSCore" + ChatColor.DARK_GRAY + "] " + ChatColor.DARK_RED + player.getName() + SE_Messages.PROMOTE + ChatColor.RED + " HOST!! Congrats :D");
             return true;
         }
-        else if (args[1].equalsIgnoreCase("coowner"))
+        else if (args[1].equalsIgnoreCase("RegAdmin"))
         {
-            Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "manuadd " + player.getName() + " coowner");
+            Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "manuadd " + player.getName() + " regadmin");
             player.setOp(true);
-            Bukkit.broadcastMessage(ChatColor.DARK_GRAY + "[" + ChatColor.DARK_RED + "Staff" + ChatColor.DARK_GRAY + "] " + ChatColor.DARK_RED + player.getName() + SE_Messages.PROMOTE + ChatColor.RED + " Co Owner!! Congrats :D");
+            Bukkit.broadcastMessage(ChatColor.DARK_GRAY + "[" + ChatColor.DARK_RED + "TatsuSCore" + ChatColor.DARK_GRAY + "] " + ChatColor.DARK_RED + player.getName() + SE_Messages.PROMOTE + ChatColor.RED + " Admin! Congrats :D");
             return true;
         }
-        else if (args[1].equalsIgnoreCase("moderator"))
+        else if (args[1].equalsIgnoreCase("Sr.Admin"))
         {
-            Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "manuadd " + player.getName() + " moderator");
-            Bukkit.broadcastMessage(ChatColor.DARK_GRAY + "[" + ChatColor.DARK_RED + "Staff" + ChatColor.DARK_GRAY + "] " + ChatColor.DARK_RED + player.getName() + SE_Messages.PROMOTE + ChatColor.RED + " Moderator! Congrats :D");
+            Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "manuadd " + player.getName() + " sr.admin");
+            Bukkit.broadcastMessage(ChatColor.DARK_GRAY + "[" + ChatColor.DARK_RED + "TatsuSCore" + ChatColor.DARK_GRAY + "] " + ChatColor.DARK_RED + player.getName() + SE_Messages.PROMOTE + ChatColor.RED + " Sr. Admin! Congrats :D");
             return true;
         }
     
