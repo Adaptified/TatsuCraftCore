@@ -11,7 +11,7 @@ Definitions
 
 "Main Developers" are:
 * [GotNoFriends](https://github.com/GotNoFriends)
-* [DaPancake](https://github.com/DaPancake)
+* [Revalation](https://github.com/TheRevalation)
 * [SmokeSnake](https://github.com/SmokeSnake) 
 * [zD12](https://github.com/zD12)
 * [xDestroyer217](https://github.com/xDestroyer217)
@@ -19,7 +19,7 @@ Definitions
 -
 The following actions and or ideals is directly prohibited and is in violation of the EULA:
 
-* The removal of, "GotNoFriends", "xDestroyer217", "DaPancake" and or "zD12" from any part of the source code without prior permission from the Project Manger(s).
+* The removal of, "GotNoFriends", "xDestroyer217", "Revalation" and or "zD12" from any part of the source code without prior permission from the Project Manger(s).
 * Sub licensing of the following Project is prohibited, prior permission from the Project Manager required.
 * The removal of EULA.md within the source code.
 * Removing the credit of zD12's commands due to packages disabling plugin build.
